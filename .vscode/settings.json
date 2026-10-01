@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.next": true,
+    "**/.vinext": true,
+    "**/dist-public": true,
+    "**/node_modules": true,
+    "**/release": true
+  },
+  "npm.packageManager": "pnpm",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

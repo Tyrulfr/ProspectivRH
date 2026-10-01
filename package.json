@@ -55,8 +55,8 @@
   },
   "main": "desktop/app/main.cjs",
   "build": {
-    "appId": "fr.universite-paris-saclay.gpec-recherche",
-    "productName": "GPEC Recherche",
+    "appId": "fr.universite-paris-saclay.prospectivrh",
+    "productName": "ProspectivRH",
     "directories": {
       "app": "desktop/app",
       "buildResources": "desktop",

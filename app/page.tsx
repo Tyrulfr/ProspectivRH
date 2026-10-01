@@ -344,7 +344,7 @@ export default function Home() {
     <aside className={"sidebar " + (menuOpen ? "open" : "")}>
       <div className="brand">
         <img src="./logo-upsaclay.png" alt="Université Paris-Saclay" />
-        <div><span>Portail</span><strong>GPEC Recherche</strong></div>
+        <div><span>Portail</span><strong>ProspectivRH</strong></div>
       </div>
       <nav aria-label="Navigation principale">
         <p>Pilotage</p>
@@ -563,7 +563,7 @@ export default function Home() {
           </section>
         </>}
 
-        <footer className="page-footer"><p>{dataset ? "Classeur traité dans ce navigateur. Les données ne sont ni envoyées ni conservées après fermeture. Aucun identifiant individuel n'est publié." : "Données de démonstration construites à partir des agrégats du classeur fourni. Aucun identifiant individuel n'est publié."}</p><span>Université Paris-Saclay · Portail GPEC Recherche</span></footer>
+        <footer className="page-footer"><p>{dataset ? "Classeur traité dans ce navigateur. Les données ne sont ni envoyées ni conservées après fermeture. Aucun identifiant individuel n'est publié." : "Données de démonstration construites à partir des agrégats du classeur fourni. Aucun identifiant individuel n'est publié."}</p><span>Université Paris-Saclay · ProspectivRH</span></footer>
       </div>
     </main>
 

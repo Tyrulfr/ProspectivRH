@@ -8,15 +8,15 @@ const rendererFile = path.join(__dirname, "..", "dist-desktop", "renderer", "ind
 function installApplicationMenu() {
   const template = [
     {
-      label: "GPEC Recherche",
+      label: "ProspectivRH",
       submenu: [
-        { role: "about", label: "À propos de GPEC Recherche" },
+        { role: "about", label: "À propos de ProspectivRH" },
         { type: "separator" },
-        { role: "hide", label: "Masquer GPEC Recherche" },
+        { role: "hide", label: "Masquer ProspectivRH" },
         { role: "hideOthers", label: "Masquer les autres" },
         { role: "unhide", label: "Tout afficher" },
         { type: "separator" },
-        { role: "quit", label: "Quitter GPEC Recherche" },
+        { role: "quit", label: "Quitter ProspectivRH" },
       ],
     },
     {
@@ -58,7 +58,7 @@ function installApplicationMenu() {
 
 function createWindow() {
   const window = new BrowserWindow({
-    title: "GPEC Recherche",
+    title: "ProspectivRH",
     width: 1480,
     height: 920,
     minWidth: 1120,

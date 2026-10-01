@@ -21,7 +21,7 @@ test("server-renders the GPEC application", async () => {
   assert.match(response.headers.get("content-type") || "", /^text\/html\b/i);
   const html = await response.text();
   assert.match(html, /<html lang="fr">/i);
-  assert.match(html, /<title>GPEC Recherche \| Université Paris-Saclay<\/title>/i);
+  assert.match(html, /<title>ProspectivRH \| Université Paris-Saclay<\/title>/i);
   assert.match(html, /Pilotage prospectif des emplois et compétences/);
   assert.match(html, /Données de démonstration/);
   assert.match(html, /Connexions SQL/);
@@ -36,7 +36,7 @@ test("keeps the finished product free of starter artifacts", async () => {
     readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
   ]);
-  assert.match(page, /GPEC Recherche/);
+  assert.match(page, /ProspectivRH/);
   assert.match(page, /Aucun identifiant individuel/);
   assert.match(layout, /og\.png/);
   assert.match(css, /--plum:\s*#63003c/i);

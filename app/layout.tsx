@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = incoming.get("x-forwarded-host") || incoming.get("host") || "localhost:3000";
   const protocol = incoming.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
   const origin = protocol + "://" + host;
-  const title = "GPEC Recherche | Université Paris-Saclay";
+  const title = "ProspectivRH | Université Paris-Saclay";
   const description = "Pilotage prospectif des emplois et compétences de recherche.";
   return {
     metadataBase: new URL(origin),
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       type: "website",
-      images: [{ url: origin + "/og.png", width: 1736, height: 907, alt: "GPEC Recherche" }],
+      images: [{ url: origin + "/og.png", width: 1736, height: 907, alt: "ProspectivRH" }],
     },
     twitter: {
       card: "summary_large_image",

@@ -1,6 +1,6 @@
 {
   "name": "gpec-recherche",
-  "productName": "GPEC Recherche",
+  "productName": "ProspectivRH",
   "version": "0.1.0",
   "private": true,
   "description": "Application locale de prospective GPEC pour la recherche à l’Université Paris-Saclay",
